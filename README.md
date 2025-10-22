@@ -70,7 +70,7 @@ The clicked points will appear as **green circles** connected by **green lines**
 You can display an example result in your README using:
 
 ```markdown
-![Preview](https://github.com/username/get-pixel-coordinates-video/blob/main/example_output.jpg)
+![Preview](https://github.com/danty-putri/Menentukan-Koordinat-Dalam-Video/blob/main/Picture1.png)
 ```
 
 ---
