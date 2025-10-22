@@ -81,4 +81,5 @@ Kamu dapat menampilkan hasil contoh di README seperti ini:
 ---
 
 ## 🧑‍💻 Author 
-Created by **Putri Danty Apriani** — for interactive pixel coordinate visualization using OpenCV. translate ke indonesia
+* Created by Putri Danty Apriani
+* Machine Learning & Data Enthusiast 🚀
