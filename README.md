@@ -1,24 +1,24 @@
-# 🎥 Get Pixel Coordinates from Video with OpenCV
+# 🎥 Menentukan Koordinat Piksel dari Video dengan OpenCV
 
-This project allows you to **click on points in a video** to retrieve their **(x, y)** pixel coordinates using the **OpenCV** library.
-Each clicked point is connected by a line, forming a path that updates dynamically while the video plays.
-
----
-
-## 🚀 Features
-
-* Display video frames in real time.
-* Click on any point to get its pixel coordinates.
-* Automatically shows coordinates `(X, Y)` beside each clicked point.
-* Draws lines connecting consecutive points.
-* Resizable video window.
-* Press **‘q’** to quit.
+Proyek ini memungkinkan kamu untuk **mengklik titik pada video** untuk mendapatkan koordinat piksel **(x, y)** menggunakan pustaka **OpenCV**.
+Setiap titik yang diklik akan terhubung dengan garis, membentuk jalur yang diperbarui secara dinamis saat video berjalan.
 
 ---
 
-## 🧩 Requirements
+## 🚀 Fitur
 
-Make sure you have Python 3.x installed, then install dependencies:
+* Menampilkan frame video secara real time.
+* Klik di titik mana pun untuk mendapatkan koordinat piksel.
+* Secara otomatis menampilkan koordinat `(X, Y)` di samping setiap titik yang diklik.
+* Menggambar garis yang menghubungkan setiap titik berturut-turut.
+* Jendela video dapat diubah ukurannya.
+* Tekan **‘q’** untuk keluar dari program.
+
+---
+
+## 🧩 Persyaratan
+
+Pastikan kamu sudah menginstal Python 3.x, lalu pasang dependensi berikut:
 
 ```bash
 pip install opencv-python
@@ -26,23 +26,23 @@ pip install opencv-python
 
 ---
 
-## 💻 How to Run
+## 💻 Cara Menjalankan
 
-1. Clone or download this repository.
-2. Place your video file (e.g., `pos.mp4`) in the same folder as the script.
-3. Run the script:
+1. Kloning atau unduh repositori ini.
+2. Letakkan file video kamu (misalnya `pos.mp4`) di folder yang sama dengan skrip.
+3. Jalankan skrip dengan perintah:
 
    ```bash
    python get_coordinates.py
    ```
-4. A window will appear:
+4. Setelah dijalankan, jendela video akan muncul:
 
-   * **Left click** anywhere in the video → prints pixel coordinates in terminal and displays them on video.
-   * **Press ‘q’** → to exit the program.
+   * **Klik kiri** di area mana pun pada video → menampilkan koordinat piksel di terminal dan pada video.
+   * **Tekan ‘q’** → untuk keluar dari program.
 
 ---
 
-## 🧠 Example Output
+## 🧠 Contoh Output
 
 ```
 Koordinat Pixel: X=350, Y=220
@@ -50,11 +50,11 @@ Koordinat Pixel: X=560, Y=270
 Koordinat Pixel: X=780, Y=300
 ```
 
-The clicked points will appear as **green circles** connected by **green lines**, with their coordinates displayed beside them.
+Titik yang diklik akan muncul sebagai **lingkaran hijau** yang dihubungkan dengan **garis hijau**, dengan teks koordinat di sebelahnya.
 
 ---
 
-## 📂 Project Structure
+## 📂 Struktur Proyek
 
 ```
 📦 get-pixel-coordinates-video
@@ -65,23 +65,20 @@ The clicked points will appear as **green circles** connected by **green lines**
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Pratinjau
 
-You can display an example result in your README using:
+Kamu dapat menampilkan hasil contoh di README seperti ini:
 
-```markdown
 ![Preview](https://github.com/danty-putri/Menentukan-Koordinat-Dalam-Video/blob/main/Picture1.png)
-```
 
 ---
 
-## 📋 Notes
+## 📋 Catatan
 
-* You can modify the variable `video_path` in the script to use a different video file.
-* Works for `.mp4`, `.avi`, `.mov`, and other common video formats supported by OpenCV.
+* Kamu dapat mengubah variabel `video_path` dalam skrip untuk menggunakan file video lain.
+* Mendukung format video umum seperti `.mp4`, `.avi`, `.mov`, dan lainnya yang didukung oleh OpenCV.
 
 ---
 
-## 🧑‍💻 Author
-
-Created by **Putri** — for interactive pixel coordinate visualization using OpenCV.
+## 🧑‍💻 Author 
+Created by **Putri Danty Apriani** — for interactive pixel coordinate visualization using OpenCV. translate ke indonesia
